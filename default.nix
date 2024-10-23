@@ -5,8 +5,8 @@
   buildroot ? (
     builtins.fetchGit {
       url = "https://gitlab.com/buildroot.org/buildroot.git";
-      ref = "2024.08";
-      rev = "769d71ae84c7a3d43ee92a1d126b2937713cc811";
+      ref = "ref/tags/2024.08";
+      rev = "638dc5c8ddb5e05aef35f371e195c2166b407803";
     }
   ),
   defconfig,
